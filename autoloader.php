@@ -13,7 +13,10 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
 /**
+ * References files that should be automatically loaded
+ *
  * @package    mod_hvp
  * @copyright  2016 Joubel AS <contact@joubel.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -41,6 +44,7 @@ function hvp_autoloader($class) {
         'H5PFileStorage' => 'library/h5p-file-storage.interface.php',
         'H5PDefaultStorage' => 'library/h5p-default-storage.class.php',
         'H5PEventBase' => 'library/h5p-event-base.class.php',
+        'H5PMetadata' => 'library/h5p-metadata.class.php',
 
         // Editor.
         'H5peditor' => 'editor/h5peditor.class.php',
